@@ -48,12 +48,14 @@ h4{
 }
 
 #price-btn{
-    padding: 10px 20px;
+    padding: 10px 27px;
 
 }
 
 .fruit-div{
     background: #FFFFFE;
+    border-radius: 0 0 5px 5px;
+
 }
 
 #fruits p{
@@ -61,6 +63,7 @@ h4{
     font-size: x-large;
     color: #f5deb3;
     background: #346e34;
+    border-radius: 5px 5px 0 0;
 }
 
 #fruit-div > div{
@@ -80,12 +83,43 @@ h4 > button{
 
 }
 
+.btns{
+    border: 1px solid #000000;
+    border-radius: 11px;
+    margin: 10px;
+    display: inline-flex;
+    border-left: none;
+    border-right: none;
+}
 
+.btns button{
+    margin: 0%;
+}
+
+.minus-btn {
+    border-radius: 11px 0 0 11px;
+    padding: 5px 9px;
+    color: #FFFFFE;
+    font-size: 20px;
+    background-image: linear-gradient(#3f4447,#5d6578,#3f4447);
+    border: none;
+}
+
+.plus-btn {
+    border-radius: 0 11px 11px 0;
+    color: #FFFFFE;
+    padding: 5px 9px;
+    font-size: 17px;
+    background-image: linear-gradient(#3f4447,#5d6578,#3f4447);
+    border: none;
+}
 
 #fruits > div{
     border: 1px solid black;
     margin: 30px;
     display: inline-block;
+    border-radius: 5px;
+    border: none;
 }
 
  section > div{
@@ -93,8 +127,9 @@ h4 > button{
 }
 
 img{
-    height: 115px;
-    width: 115px;
+    width: 79px;
+    height: 79px;
+
 }
 
 footer{
