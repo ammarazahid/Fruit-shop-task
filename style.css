@@ -1,0 +1,103 @@
+*{
+    text-align: center;
+    margin: 0%;
+
+}
+
+body{
+    background-color: #000000;
+}
+
+#container{
+    margin:25px 0 25px 0;
+}
+
+header h3{
+    background-image: linear-gradient(#3f4447,#5d6578,#3f4447);
+    padding: 20px 0;
+    color: #FFFFFE;
+    font-size: x-large;
+    margin: 0%;
+}
+
+h5{
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    margin: 0%;
+}
+
+h5 > button{
+    border: 1px solid #d5d2d2;
+    padding: 16px 31px;
+    border-radius: 17px;
+    margin-left: 11px;
+    background-color: #FFFfff;
+
+}
+
+
+h4{
+   background-color: #efe2cc;
+   border: none;
+   padding: 50px;
+   margin: 0;
+   font-size: x-large;
+
+}
+
+#price-btn{
+    padding: 10px 20px;
+
+}
+
+.fruit-div{
+    background: #FFFFFE;
+}
+
+#fruits p{
+    padding: 6px 52px;
+    font-size: x-large;
+    color: #f5deb3;
+    background: #346e34;
+}
+
+#fruit-div > div{
+    margin: 10px 0 10px 0;
+}
+
+h4 > button{
+    border: none;
+    margin-left: 11px;
+    padding: 16px 31px;
+    background-color:  #efe2cc;
+}
+
+#fruits{
+    background-image: linear-gradient(#3f4447,#5d6578,#3f4447);
+    margin: 0%;
+
+}
+
+
+
+#fruits > div{
+    border: 1px solid black;
+    margin: 30px;
+    display: inline-block;
+}
+
+ section > div{
+    border: 1px solid white;
+}
+
+img{
+    height: 115px;
+    width: 115px;
+}
+
+footer{
+    background-color: #FFFFFF;
+    padding: 19px;
+}
