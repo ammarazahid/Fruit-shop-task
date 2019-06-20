@@ -4,6 +4,10 @@
 
 }
 
+button, input {
+    outline: none;
+}
+
 body{
     background-color: #000000;
 }
@@ -89,7 +93,7 @@ h4{
     border: none;
     color: #ed462f;
     font-size: -webkit-xxx-large;
-    width: 50px;
+    width: 65px;
     font-family: auto;
 }
 
