@@ -17,10 +17,10 @@
 
     <main>
         <section>
-            <h5>I have Rs.<button></button></h5>
+            <h5>I have Rs.<input id="have-rs" type="number" value="0"></h5>
         </section>
         <section id="total-rupees">
-            <h4>Your total is Rs.<button></button></h4>
+            <h4>Your total is Rs.<input id="total" type="number" value="0"></h4>
         </section>
         <section id="fruits">
             <div id="apple">
@@ -30,9 +30,9 @@
                         <figcaption><strong>Apple</strong></figcaption>
                     </figure>
                 <div class="btns">
-                        <button class="minus-btn">-</button>
-                        <button id="price-btn"></button>
-                        <button class="plus-btn">+</button>
+                        <button onclick="appleMinusBtn()" class="minus-btn">-</button>
+                        <button id="price-btn1">0</button>
+                        <button onclick="applePlusBtn()" class="plus-btn">+</button>
                 </div>
             </div>
             </div>
@@ -46,9 +46,9 @@
                         </figcaption>
                     </figure>
                 <div class="btns">
-                        <button class="minus-btn">-</button>
-                        <button id="price-btn"></button>
-                        <button class="plus-btn">+</button>
+                        <button onclick="orangeMinusBtn()" class="minus-btn">-</button>
+                        <button id="price-btn2">0</button>
+                        <button onclick="orangePlusBtn()" class="plus-btn">+</button>
                 </div>
             </div>
         </div>
@@ -62,9 +62,9 @@
                                 </figcaption>
                             </figure>
                 <div class="btns">
-                        <button class="minus-btn">-</button>
-                        <button id="price-btn"></button>
-                        <button class="plus-btn">+</button>
+                        <button onclick="bananaMinusBtn()" class="minus-btn">-</button>
+                        <button id="price-btn3">0</button>
+                        <button onclick="bananaPlusBtn()" class="plus-btn">+</button>
                 </div>
                 </div>
             </div>

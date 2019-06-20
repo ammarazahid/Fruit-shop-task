@@ -28,13 +28,16 @@ h5{
     margin: 0%;
 }
 
-h5 > button{
-    border: 1px solid #d5d2d2;
-    padding: 16px 31px;
-    border-radius: 17px;
+#have-rs{
     margin-left: 11px;
     background-color: #FFFfff;
-
+    border: 1px solid #e4e2e2;
+    border-radius: 29px;
+    font-weight: bold;
+    text-align: center;
+    width: 57px;
+    height: 34px;
+    font-size: large;
 }
 
 
@@ -47,8 +50,18 @@ h4{
 
 }
 
-#price-btn{
-    padding: 10px 27px;
+#price-btn1 {
+    width: 60px;
+    
+
+}
+#price-btn2{
+    width: 60px;
+}
+
+#price-btn3 {
+    width: 60px;
+    
 
 }
 
@@ -70,11 +83,14 @@ h4{
     margin: 10px 0 10px 0;
 }
 
-h4 > button{
-    border: none;
+#total-rupees input{
     margin-left: 11px;
-    padding: 16px 31px;
     background-color:  #efe2cc;
+    border: none;
+    color: #ed462f;
+    font-size: -webkit-xxx-large;
+    width: 42px;
+    font-family: auto;
 }
 
 #fruits{
@@ -135,4 +151,10 @@ img{
 footer{
     background-color: #FFFFFF;
     padding: 19px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+    margin: 0;
 }
