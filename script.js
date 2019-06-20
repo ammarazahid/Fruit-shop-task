@@ -59,9 +59,9 @@ total fruits ki price ko total-rupees me show kena hai
 */
 
 function bill(){
-    const totalAppleCost = appleCost * 10;
-    const totalOrangeCost = orangeCost * 15;
-    const totalBananaCost = bananaCost * 7;
+    const totalAppleCost = appleCost + 10;
+    const totalOrangeCost = orangeCost + 15;
+    const totalBananaCost = bananaCost + 7;
 let totalCost = document.querySelector("#total").value;
 
  totalCost = totalAppleCost + totalOrangeCost + totalBananaCost;
