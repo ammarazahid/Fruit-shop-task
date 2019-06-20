@@ -67,3 +67,21 @@ let totalCost = document.querySelector("#total").Value;
  totalCost = totalAppleCost + totalOrangeCost + totalBananaCost;
  document.querySelector("#total").value = totalCost;
 }
+
+
+
+
+/*
+agr totalCost pocket rs se zyada hojae to alert warna nhi
+
+*/
+
+if (totalCost > have-rs) {
+   alert:"you don not have much money";
+   
+}
+
+
+
+
+
