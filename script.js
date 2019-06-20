@@ -79,7 +79,7 @@ agr totalCost pocket rs se zyada hojae to alert warna nhi
 let pocketAmount = document.querySelector("#have-rs").value;
 let totalAmount = document.querySelector("#total").value;
 
-if (totalAmount <== pocketAmount) {
+if (totalAmount <= pocketAmount) {
    alert("Thank you for shopping");
 }else{
    alert("you do not have much money");
