@@ -62,7 +62,7 @@ function bill(){
     const totalAppleCost = appleCost * 10;
     const totalOrangeCost = orangeCost * 15;
     const totalBananaCost = bananaCost * 7;
-let totalCost = document.querySelector("#total").Value;
+let totalCost = document.querySelector("#total").value;
 
  totalCost = totalAppleCost + totalOrangeCost + totalBananaCost;
  document.querySelector("#total").value = totalCost;
@@ -77,9 +77,9 @@ agr totalCost pocket rs se zyada hojae to alert warna nhi
 */
 
 let pocketAmount = document.querySelector("#have-rs").value;
-let totalCost =document.querySelector("#total").value;
+let totalAmount = document.querySelector("#total").value;
 
-if (totalCost <== pocketAmount) {
+if (totalAmount <== pocketAmount) {
    alert("Thank you for shopping");
 }else{
    alert("you do not have much money");
