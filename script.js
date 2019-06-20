@@ -76,7 +76,7 @@ agr totalCost pocket rs se zyada hojae to alert warna nhi
 
 */
 
-let pocketAmount = document.querySelector("#have-rs").value;
+let pocketAmount = document.querySelector("#have-rs").Value;
 let totalCost =document.querySelector("#total").Value;
 
 if (totalCost > pocketAmount) {
