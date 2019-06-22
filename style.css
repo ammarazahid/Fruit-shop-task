@@ -162,3 +162,8 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
     margin: 0;
 }
+
+/* 
+@media and screen (min-width: 300px){
+
+} */
