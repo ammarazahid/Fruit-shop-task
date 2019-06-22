@@ -1,6 +1,7 @@
 let appleCost = 0;
 
 function applePlusBtn() {
+  
    appleCost += 1;
    document.querySelector("#price-btn1").innerHTML = appleCost; 
    bill();      
@@ -66,7 +67,17 @@ function bill(){
 
  totalCost = totalAppleCost + totalOrangeCost + totalBananaCost;
  document.querySelector("#total").value = totalCost;
+
+  
+let pocketAmount = document.getElementById("have-rs").value;
+
+if (pocketAmount < totalCost) {
+   alert("you do not have money");
 }
+}
+// } else{
+//    alert("Thanks for shopping");
+// }
 
 
 
@@ -76,16 +87,9 @@ agr totalCost pocket rs se zyada hojae to alert warna nhi
 
 */
 
-let pocketAmount = document.querySelector("#have-rs").value;
+
+
 // let totalCost = document.querySelector("#total").value;
-
-if (totalCost <= pocketAmount) {
-   alert("Thank you for shopping");
-}else{
-   alert("you do not have much money");
-   
-}
-
 
 
 
